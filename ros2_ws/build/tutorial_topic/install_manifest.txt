@@ -1,0 +1,17 @@
+/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher
+/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber
+/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/package_run_dependencies/tutorial_topic
+/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/parent_prefix_path/tutorial_topic
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.sh
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.dsv
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.sh
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.dsv
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.bash
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.sh
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.zsh
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.dsv
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/package.dsv
+/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/packages/tutorial_topic
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig.cmake
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig-version.cmake
+/ros2_ws/install/tutorial_topic/share/tutorial_topic/package.xml

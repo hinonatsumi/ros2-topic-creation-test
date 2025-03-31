@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target publisher[0m
+[ 50%] Built target subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable publisher[0m
+[100%] Built target publisher
+-- Install configuration: ""
+-- Installing: /ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher
+-- Set runtime path of "/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher" to ""
+-- Installing: /ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber
+-- Set runtime path of "/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber" to ""
+-- Installing: /ros2_ws/install/tutorial_topic/share/ament_index/resource_index/package_run_dependencies/tutorial_topic
+-- Installing: /ros2_ws/install/tutorial_topic/share/ament_index/resource_index/parent_prefix_path/tutorial_topic
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.sh
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.dsv
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.sh
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.dsv
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.bash
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.sh
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.zsh
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.dsv
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/package.dsv
+-- Installing: /ros2_ws/install/tutorial_topic/share/ament_index/resource_index/packages/tutorial_topic
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig.cmake
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig-version.cmake
+-- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/package.xml

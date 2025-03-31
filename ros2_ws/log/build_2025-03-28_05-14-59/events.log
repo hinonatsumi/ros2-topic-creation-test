@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000636] (tutorial_topic) JobQueued: {'identifier': 'tutorial_topic', 'dependencies': OrderedDict()}
+[0.000680] (tutorial_topic) JobStarted: {'identifier': 'tutorial_topic'}
+[0.015251] (tutorial_topic) JobProgress: {'identifier': 'tutorial_topic', 'progress': 'cmake'}
+[0.015952] (tutorial_topic) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/tutorial_topic', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/tutorial_topic'], 'cwd': '/ros2_ws/build/tutorial_topic', 'env': OrderedDict([('HOSTNAME', 'n-hino'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/ros2_ws/build/tutorial_topic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.032757] (tutorial_topic) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.053774] (tutorial_topic) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099653] (-) TimerEvent: {}
+[0.192630] (tutorial_topic) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.199756] (-) TimerEvent: {}
+[0.223359] (tutorial_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.226301] (tutorial_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299881] (-) TimerEvent: {}
+[0.339640] (tutorial_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.382646] (tutorial_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.383871] (tutorial_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399981] (-) TimerEvent: {}
+[0.500212] (-) TimerEvent: {}
+[0.563377] (tutorial_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.571909] (tutorial_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[0.572981] (tutorial_topic) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/tutorial_topic\n'}
+[0.577577] (tutorial_topic) CommandEnded: {'returncode': 0}
+[0.579904] (tutorial_topic) JobProgress: {'identifier': 'tutorial_topic', 'progress': 'build'}
+[0.580058] (tutorial_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/tutorial_topic', '--', '-j8', '-l8'], 'cwd': '/ros2_ws/build/tutorial_topic', 'env': OrderedDict([('HOSTNAME', 'n-hino'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/ros2_ws/build/tutorial_topic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.600321] (-) TimerEvent: {}
+[0.620007] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber\x1b[0m\n'}
+[0.620173] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publisher\x1b[0m\n'}
+[0.676035] (tutorial_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.676193] (tutorial_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.700409] (-) TimerEvent: {}
+[0.800678] (-) TimerEvent: {}
+[0.900959] (-) TimerEvent: {}
+[1.001266] (-) TimerEvent: {}
+[1.101568] (-) TimerEvent: {}
+[1.201872] (-) TimerEvent: {}
+[1.302187] (-) TimerEvent: {}
+[1.402487] (-) TimerEvent: {}
+[1.502796] (-) TimerEvent: {}
+[1.603115] (-) TimerEvent: {}
+[1.703427] (-) TimerEvent: {}
+[1.803745] (-) TimerEvent: {}
+[1.893651] (tutorial_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/tutorial_topic/src/publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.893903] (tutorial_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/tutorial_topic/src/publisher.cpp:6:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karcv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.894041] (tutorial_topic) StderrLine: {'line': b'    6 |   rclcpp::init(argc, \x1b[01;31m\x1b[Karcv\x1b[m\x1b[K);\n'}
+[1.894172] (tutorial_topic) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.894284] (tutorial_topic) StderrLine: {'line': b'      |                      \x1b[32m\x1b[Kargv\x1b[m\x1b[K\n'}
+[1.903853] (-) TimerEvent: {}
+[1.908115] (tutorial_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/tutorial_topic/src/publisher.cpp:4:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.908353] (tutorial_topic) StderrLine: {'line': b'    4 | int main(int argc, \x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K)\n'}
+[1.908480] (tutorial_topic) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.003961] (-) TimerEvent: {}
+[2.104283] (-) TimerEvent: {}
+[2.204585] (-) TimerEvent: {}
+[2.304892] (-) TimerEvent: {}
+[2.405210] (-) TimerEvent: {}
+[2.505523] (-) TimerEvent: {}
+[2.605857] (-) TimerEvent: {}
+[2.706171] (-) TimerEvent: {}
+[2.753603] (tutorial_topic) StderrLine: {'line': b'make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1\n'}
+[2.753837] (tutorial_topic) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/publisher.dir/all] Error 2\n'}
+[2.753934] (tutorial_topic) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[2.806255] (-) TimerEvent: {}
+[2.906536] (-) TimerEvent: {}
+[3.006815] (-) TimerEvent: {}
+[3.107106] (-) TimerEvent: {}
+[3.207401] (-) TimerEvent: {}
+[3.307680] (-) TimerEvent: {}
+[3.408124] (-) TimerEvent: {}
+[3.508405] (-) TimerEvent: {}
+[3.608659] (-) TimerEvent: {}
+[3.708914] (-) TimerEvent: {}
+[3.809176] (-) TimerEvent: {}
+[3.909434] (-) TimerEvent: {}
+[4.009702] (-) TimerEvent: {}
+[4.109966] (-) TimerEvent: {}
+[4.210236] (-) TimerEvent: {}
+[4.310500] (-) TimerEvent: {}
+[4.410770] (-) TimerEvent: {}
+[4.511039] (-) TimerEvent: {}
+[4.611275] (-) TimerEvent: {}
+[4.711543] (-) TimerEvent: {}
+[4.811808] (-) TimerEvent: {}
+[4.912092] (-) TimerEvent: {}
+[5.012343] (-) TimerEvent: {}
+[5.012825] (tutorial_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[5.112467] (-) TimerEvent: {}
+[5.212749] (-) TimerEvent: {}
+[5.258654] (tutorial_topic) StdoutLine: {'line': b'[ 75%] Built target subscriber\n'}
+[5.259713] (tutorial_topic) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.261519] (tutorial_topic) CommandEnded: {'returncode': 2}
+[5.299280] (tutorial_topic) JobEnded: {'identifier': 'tutorial_topic', 'rc': 2}
+[5.309761] (-) EventReactorShutdown: {}

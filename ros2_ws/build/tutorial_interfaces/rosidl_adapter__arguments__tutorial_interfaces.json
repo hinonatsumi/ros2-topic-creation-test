@@ -1,0 +1,6 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/ros2_ws/tutorial_interfaces:msg/Int32Stamped.msg"
+  ]
+}

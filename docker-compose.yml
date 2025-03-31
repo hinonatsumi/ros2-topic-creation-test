@@ -1,0 +1,13 @@
+services:
+  topic:
+    build:
+      context: .
+    environment:
+      - DISPLAY=unix${DISPLAY}
+    network_mode: host
+    ipc: host
+    volumes:
+      - ./ros2_ws:/ros2_ws
+      - ./tmp/.X11-unix:/tmp/.X11-unix
+      - $HOME/.Xauthority:/root/.Xauthority
+    command: bash -c "source ros2_ws/install/setup.bash"

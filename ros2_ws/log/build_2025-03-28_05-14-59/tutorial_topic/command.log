@@ -1,0 +1,4 @@
+Invoking command in '/ros2_ws/build/tutorial_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ros2_ws/tutorial_topic -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/tutorial_topic
+Invoked command in '/ros2_ws/build/tutorial_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ros2_ws/tutorial_topic -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/tutorial_topic
+Invoking command in '/ros2_ws/build/tutorial_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros2_ws/build/tutorial_topic -- -j8 -l8
+Invoked command in '/ros2_ws/build/tutorial_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros2_ws/build/tutorial_topic -- -j8 -l8

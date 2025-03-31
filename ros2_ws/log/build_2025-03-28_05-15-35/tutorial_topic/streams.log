@@ -1,0 +1,29 @@
+[0.018s] Invoking command in '/ros2_ws/build/tutorial_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros2_ws/build/tutorial_topic -- -j8 -l8
+[0.061s] [35m[1mScanning dependencies of target publisher[0m
+[0.080s] [ 50%] Built target subscriber
+[0.083s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[2.624s] [100%] [32m[1mLinking CXX executable publisher[0m
+[2.776s] [100%] Built target publisher
+[2.787s] Invoked command in '/ros2_ws/build/tutorial_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros2_ws/build/tutorial_topic -- -j8 -l8
+[2.825s] Invoking command in '/ros2_ws/build/tutorial_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ros2_ws/build/tutorial_topic
+[2.834s] -- Install configuration: ""
+[2.834s] -- Installing: /ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher
+[2.834s] -- Set runtime path of "/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher" to ""
+[2.834s] -- Installing: /ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber
+[2.836s] -- Set runtime path of "/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber" to ""
+[2.836s] -- Installing: /ros2_ws/install/tutorial_topic/share/ament_index/resource_index/package_run_dependencies/tutorial_topic
+[2.836s] -- Installing: /ros2_ws/install/tutorial_topic/share/ament_index/resource_index/parent_prefix_path/tutorial_topic
+[2.836s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.sh
+[2.836s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.dsv
+[2.836s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.sh
+[2.837s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.dsv
+[2.837s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.bash
+[2.837s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.sh
+[2.837s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.zsh
+[2.837s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.dsv
+[2.837s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/package.dsv
+[2.837s] -- Installing: /ros2_ws/install/tutorial_topic/share/ament_index/resource_index/packages/tutorial_topic
+[2.837s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig.cmake
+[2.838s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig-version.cmake
+[2.838s] -- Installing: /ros2_ws/install/tutorial_topic/share/tutorial_topic/package.xml
+[2.840s] Invoked command in '/ros2_ws/build/tutorial_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ros2_ws/build/tutorial_topic
